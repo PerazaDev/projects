@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2813CBA027F0F89D00BA7519 /* SkeletonView in Frameworks */ = {isa = PBXBuildFile; productRef = 2813CB9F27F0F89D00BA7519 /* SkeletonView */; };
+		2849DFB127F016B900F0FB25 /* LockedBenevitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2849DFAF27F016B900F0FB25 /* LockedBenevitCollectionViewCell.swift */; };
+		2849DFB227F016B900F0FB25 /* LockedBenevitCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2849DFB027F016B900F0FB25 /* LockedBenevitCollectionViewCell.xib */; };
+		28AF648927EF9BC500466B1B /* WalletTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AF648727EF9BC500466B1B /* WalletTableViewCell.swift */; };
+		28AF648A27EF9BC500466B1B /* WalletTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AF648827EF9BC500466B1B /* WalletTableViewCell.xib */; };
+		28B6215E27EEE60300934C43 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B6215D27EEE60300934C43 /* DashboardViewController.swift */; };
+		28B6216127EEE9A500934C43 /* MenuNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B6215F27EEE9A500934C43 /* MenuNavigationViewController.swift */; };
+		28B6216227EEE9A500934C43 /* MenuNavigationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28B6216027EEE9A500934C43 /* MenuNavigationViewController.xib */; };
+		28C394CE27F055C400ABE29E /* BenevitModelMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C394CD27F055C400ABE29E /* BenevitModelMap.swift */; };
+		28D9AAD427EFADBA00C749F4 /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D9AAD327EFADBA00C749F4 /* DashboardController.swift */; };
+		28D9AAD627EFCE0700C749F4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D9AAD527EFCE0700C749F4 /* User.swift */; };
+		28D9AAD827EFF55300C749F4 /* WalletResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D9AAD727EFF55300C749F4 /* WalletResponseModel.swift */; };
+		28D9AADA27EFF56800C749F4 /* BenevitResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D9AAD927EFF56800C749F4 /* BenevitResponseModel.swift */; };
+		28F1A01727EF7F8800B654D1 /* BenevitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F1A01527EF7F8800B654D1 /* BenevitCollectionViewCell.swift */; };
+		28F1A01827EF7F8800B654D1 /* BenevitCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F1A01627EF7F8800B654D1 /* BenevitCollectionViewCell.xib */; };
+		28F715C727EEC8A000A693F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F715C627EEC8A000A693F7 /* AppDelegate.swift */; };
+		28F715C927EEC8A000A693F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F715C827EEC8A000A693F7 /* SceneDelegate.swift */; };
+		28F715CB27EEC8A000A693F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F715CA27EEC8A000A693F7 /* ViewController.swift */; };
+		28F715CE27EEC8A000A693F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F715CC27EEC8A000A693F7 /* Main.storyboard */; };
+		28F715D027EEC8A100A693F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F715CF27EEC8A100A693F7 /* Assets.xcassets */; };
+		28F715D327EEC8A100A693F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F715D127EEC8A100A693F7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2849DFAF27F016B900F0FB25 /* LockedBenevitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockedBenevitCollectionViewCell.swift; sourceTree = "<group>"; };
+		2849DFB027F016B900F0FB25 /* LockedBenevitCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LockedBenevitCollectionViewCell.xib; sourceTree = "<group>"; };
+		28AF648727EF9BC500466B1B /* WalletTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTableViewCell.swift; sourceTree = "<group>"; };
+		28AF648827EF9BC500466B1B /* WalletTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WalletTableViewCell.xib; sourceTree = "<group>"; };
+		28B6215D27EEE60300934C43 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		28B6215F27EEE9A500934C43 /* MenuNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuNavigationViewController.swift; sourceTree = "<group>"; };
+		28B6216027EEE9A500934C43 /* MenuNavigationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuNavigationViewController.xib; sourceTree = "<group>"; };
+		28C394CD27F055C400ABE29E /* BenevitModelMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenevitModelMap.swift; sourceTree = "<group>"; };
+		28D9AAD327EFADBA00C749F4 /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		28D9AAD527EFCE0700C749F4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		28D9AAD727EFF55300C749F4 /* WalletResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletResponseModel.swift; sourceTree = "<group>"; };
+		28D9AAD927EFF56800C749F4 /* BenevitResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenevitResponseModel.swift; sourceTree = "<group>"; };
+		28F1A01527EF7F8800B654D1 /* BenevitCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenevitCollectionViewCell.swift; sourceTree = "<group>"; };
+		28F1A01627EF7F8800B654D1 /* BenevitCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BenevitCollectionViewCell.xib; sourceTree = "<group>"; };
+		28F715C327EEC8A000A693F7 /* SocioInfonavitNextia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocioInfonavitNextia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F715C627EEC8A000A693F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28F715C827EEC8A000A693F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		28F715CA27EEC8A000A693F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28F715CD27EEC8A000A693F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28F715CF27EEC8A100A693F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28F715D227EEC8A100A693F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28F715D427EEC8A100A693F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28F715C027EEC8A000A693F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2813CBA027F0F89D00BA7519 /* SkeletonView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28AF648627EF9B8A00466B1B /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				28AF648727EF9BC500466B1B /* WalletTableViewCell.swift */,
+				28AF648827EF9BC500466B1B /* WalletTableViewCell.xib */,
+				28F1A01527EF7F8800B654D1 /* BenevitCollectionViewCell.swift */,
+				28F1A01627EF7F8800B654D1 /* BenevitCollectionViewCell.xib */,
+				2849DFAF27F016B900F0FB25 /* LockedBenevitCollectionViewCell.swift */,
+				2849DFB027F016B900F0FB25 /* LockedBenevitCollectionViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		28D9AADB27F0004100C749F4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				28F715CA27EEC8A000A693F7 /* ViewController.swift */,
+				28F715CC27EEC8A000A693F7 /* Main.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		28F715BA27EEC8A000A693F7 = {
+			isa = PBXGroup;
+			children = (
+				28F715C527EEC8A000A693F7 /* SocioInfonavitNextia */,
+				28F715C427EEC8A000A693F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28F715C427EEC8A000A693F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28F715C327EEC8A000A693F7 /* SocioInfonavitNextia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28F715C527EEC8A000A693F7 /* SocioInfonavitNextia */ = {
+			isa = PBXGroup;
+			children = (
+				28F715DA27EECA8900A693F7 /* Model */,
+				28F715DD27EECAB700A693F7 /* View */,
+				28F715DC27EECAAA00A693F7 /* Controller */,
+				28F715C627EEC8A000A693F7 /* AppDelegate.swift */,
+				28F715C827EEC8A000A693F7 /* SceneDelegate.swift */,
+				28F715CF27EEC8A100A693F7 /* Assets.xcassets */,
+				28F715D127EEC8A100A693F7 /* LaunchScreen.storyboard */,
+				28F715D427EEC8A100A693F7 /* Info.plist */,
+			);
+			path = SocioInfonavitNextia;
+			sourceTree = "<group>";
+		};
+		28F715DA27EECA8900A693F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28D9AAD527EFCE0700C749F4 /* User.swift */,
+				28D9AAD727EFF55300C749F4 /* WalletResponseModel.swift */,
+				28D9AAD927EFF56800C749F4 /* BenevitResponseModel.swift */,
+				28C394CD27F055C400ABE29E /* BenevitModelMap.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28F715DC27EECAAA00A693F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				28D9AAD327EFADBA00C749F4 /* DashboardController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		28F715DD27EECAB700A693F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				28D9AADB27F0004100C749F4 /* Home */,
+				28AF648627EF9B8A00466B1B /* CustomCell */,
+				28B6215D27EEE60300934C43 /* DashboardViewController.swift */,
+				28B6215F27EEE9A500934C43 /* MenuNavigationViewController.swift */,
+				28B6216027EEE9A500934C43 /* MenuNavigationViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28F715C227EEC8A000A693F7 /* SocioInfonavitNextia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F715D727EEC8A100A693F7 /* Build configuration list for PBXNativeTarget "SocioInfonavitNextia" */;
+			buildPhases = (
+				28F715BF27EEC8A000A693F7 /* Sources */,
+				28F715C027EEC8A000A693F7 /* Frameworks */,
+				28F715C127EEC8A000A693F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocioInfonavitNextia;
+			packageProductDependencies = (
+				2813CB9F27F0F89D00BA7519 /* SkeletonView */,
+			);
+			productName = SocioInfonavitNextia;
+			productReference = 28F715C327EEC8A000A693F7 /* SocioInfonavitNextia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28F715BB27EEC8A000A693F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					28F715C227EEC8A000A693F7 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 28F715BE27EEC8A000A693F7 /* Build configuration list for PBXProject "SocioInfonavitNextia" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28F715BA27EEC8A000A693F7;
+			packageReferences = (
+				2813CB9E27F0F89D00BA7519 /* XCRemoteSwiftPackageReference "SkeletonView" */,
+			);
+			productRefGroup = 28F715C427EEC8A000A693F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28F715C227EEC8A000A693F7 /* SocioInfonavitNextia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28F715C127EEC8A000A693F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AF648A27EF9BC500466B1B /* WalletTableViewCell.xib in Resources */,
+				28F1A01827EF7F8800B654D1 /* BenevitCollectionViewCell.xib in Resources */,
+				28F715D327EEC8A100A693F7 /* LaunchScreen.storyboard in Resources */,
+				28F715D027EEC8A100A693F7 /* Assets.xcassets in Resources */,
+				28B6216227EEE9A500934C43 /* MenuNavigationViewController.xib in Resources */,
+				2849DFB227F016B900F0FB25 /* LockedBenevitCollectionViewCell.xib in Resources */,
+				28F715CE27EEC8A000A693F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28F715BF27EEC8A000A693F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28D9AAD427EFADBA00C749F4 /* DashboardController.swift in Sources */,
+				28D9AADA27EFF56800C749F4 /* BenevitResponseModel.swift in Sources */,
+				28AF648927EF9BC500466B1B /* WalletTableViewCell.swift in Sources */,
+				28F715CB27EEC8A000A693F7 /* ViewController.swift in Sources */,
+				28D9AAD827EFF55300C749F4 /* WalletResponseModel.swift in Sources */,
+				28C394CE27F055C400ABE29E /* BenevitModelMap.swift in Sources */,
+				28F715C727EEC8A000A693F7 /* AppDelegate.swift in Sources */,
+				28F1A01727EF7F8800B654D1 /* BenevitCollectionViewCell.swift in Sources */,
+				28D9AAD627EFCE0700C749F4 /* User.swift in Sources */,
+				28F715C927EEC8A000A693F7 /* SceneDelegate.swift in Sources */,
+				28B6216127EEE9A500934C43 /* MenuNavigationViewController.swift in Sources */,
+				2849DFB127F016B900F0FB25 /* LockedBenevitCollectionViewCell.swift in Sources */,
+				28B6215E27EEE60300934C43 /* DashboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28F715CC27EEC8A000A693F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F715CD27EEC8A000A693F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28F715D127EEC8A100A693F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F715D227EEC8A100A693F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28F715D527EEC8A100A693F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28F715D627EEC8A100A693F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28F715D827EEC8A100A693F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZC4UJ8CP89;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SocioInfonavitNextia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.SocioInfonavitNextia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28F715D927EEC8A100A693F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZC4UJ8CP89;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SocioInfonavitNextia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.SocioInfonavitNextia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28F715BE27EEC8A000A693F7 /* Build configuration list for PBXProject "SocioInfonavitNextia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F715D527EEC8A100A693F7 /* Debug */,
+				28F715D627EEC8A100A693F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F715D727EEC8A100A693F7 /* Build configuration list for PBXNativeTarget "SocioInfonavitNextia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F715D827EEC8A100A693F7 /* Debug */,
+				28F715D927EEC8A100A693F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2813CB9E27F0F89D00BA7519 /* XCRemoteSwiftPackageReference "SkeletonView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Juanpe/SkeletonView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2813CB9F27F0F89D00BA7519 /* SkeletonView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2813CB9E27F0F89D00BA7519 /* XCRemoteSwiftPackageReference "SkeletonView" */;
+			productName = SkeletonView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 28F715BB27EEC8A000A693F7 /* Project object */;
+}
